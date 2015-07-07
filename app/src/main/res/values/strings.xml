@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Discount Ascii Warehouse</string>
+    <string name="search">Search</string>
+    <string name="only_in_stock">Only show items currently in stock</string>
+</resources>
