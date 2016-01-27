@@ -38,11 +38,17 @@ public class AsciiAdapter extends RecyclerView.Adapter<AsciiAdapter.ViewHolder> 
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        holder.asciiTextView.setText(asciis.get(position).face);
+        Ascii ascii = asciis.get(position);
+        holder.asciiTextView.setText(ascii.face);
+        holder.asciiTextView.setTextSize(ascii.size);
     }
 
     @Override
     public int getItemCount() {
         return asciis.size();
+    }
+
+    public Ascii getItem(int position) {
+        return asciis.get(position);
     }
 }

@@ -1,15 +1,7 @@
 package net.logcat.discountasciiwarehouse;
 
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-
-import rx.android.schedulers.AndroidSchedulers;
-import rx.functions.Action0;
-import rx.schedulers.Schedulers;
-
-import static net.logcat.discountasciiwarehouse.AsciiApp.asciiService;
 
 public class MainActivity extends AppCompatActivity {
 
